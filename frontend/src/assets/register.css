@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  /* align-items: center; */
+  height: 100vh;
+  margin: 0;
+}
+
+.register
+{
+  margin-left:176% ;  
+  width: 150%;
+}
+
+/* Form Container */
+.Registeruser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.w-full {
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.headings {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Input Fields */
+.allinputfield {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.allinputfield label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* Input Box */
+input {
+  width: 100%;
+  padding: 12px 40px 12px 12px; /* Right padding for icon */
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.3);
+}
+
+/* Password Field Wrapper */
+.password-field {
+  position: relative;
+  width: 100%;
+}
+
+/* Input Box */
+input {
+  width: 100%;
+  padding: 12px;
+  padding-right: 40px; /* Space for eye button */
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.3);
+}
+
+/* Eye Button Inside Input (Centered) */
+.eyebutton {
+  position: absolute;
+  right: 10px;
+  left: 56%;
+  width: 30px;
+  top: 53.5%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #6b7280;
+  font-size: 18px;
+}
+
+.eyebutton:hover {
+  color: #4f46e5;
+}
+/* Register Button */
+.registerbutton {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10%;
+}
+
+.registerbutton:hover {
+  background: #4338ca;
+}
+
+/* Login Redirect */
+.Existuser {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.Existuser span {
+  color: #2563eb;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.Existuser span:hover {
+  color: #1e40af;
+}
+
+.Guest
+{
+  color: #080808;
+  background-color: #4338ca;
+  border-radius: 3px;
+  padding: 5px;
+}

@@ -1,0 +1,30 @@
+/* Centering and fixing the heading */
+.headingsss {
+   /* Centers text horizontally */
+  margin: 20px auto; /* Adds spacing around */
+  position: relative;
+  left: 0; /* Removes unnecessary left shift */
+  margin-right: 70%;
+
+}
+
+.headingdown
+{
+  margin-top: 6%;
+}
+
+/* Ensuring full-width and proper alignment for #unregister */
+#unregister {
+  margin-top: 70%;
+  width: 180% ; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  margin-left: 32%;
+  margin-top: 10% !important;
+}
+
+
+.unregisteruser
+{
+  width: 110%;
+}

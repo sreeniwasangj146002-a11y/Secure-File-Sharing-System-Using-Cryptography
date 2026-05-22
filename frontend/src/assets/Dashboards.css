@@ -1,0 +1,135 @@
+/* Main Dashboard Container */
+.dashboard-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+#dashlight
+{
+  margin-left: 120%;
+  margin-top: 30%;  
+  margin-bottom: 30%;
+  
+}
+
+.headAdmin
+{
+  position: relative;
+  left: 2%;
+}
+
+#piechart
+{
+  position: fixed;
+  margin-left: 14%;
+}
+
+.dashlight{
+ position: relative;
+ left: 194%;
+}
+/* Dashboard Title */
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Dashboard Stats Cards */
+.dashboard-card {
+  border-radius: 10px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.dashboard-card:hover {
+  transform: scale(1.03);
+}
+
+/* Card Headings */
+.dashboard-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Card Text */
+.dashboard-card-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Graph Section */
+.dashboard-graph-container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Styles */
+.dashboard-button-group { 
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.dashboard-button {
+  padding: 10px 15px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.dashboard-button.active {
+  background: #007bff;
+  color: white;
+}
+
+.dashboard-button:hover {
+  background: #0056b3;
+  color: white;
+}
+
+/* Row Layout */
+.dashboard-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.dashboard-col {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .dashboard-row {
+    flex-direction: column;
+  }
+
+  .dashboard-button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dashboard-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

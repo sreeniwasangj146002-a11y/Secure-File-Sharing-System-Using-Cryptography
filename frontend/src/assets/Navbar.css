@@ -1,0 +1,145 @@
+/* Navbar Styles
+.navbar {
+  background: linear-gradient(135deg, #1e1e2f, #27293d);
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin-left: 140px;
+  left: 108px;
+  width: calc(91.5% - 108px); 
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.brand-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.toggler-icon {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-item {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.nav-item:hover, .active-link {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.logout {
+  color: red;
+}
+
+.profile-dropdown {
+  position: relative;
+  margin-left: 20px;
+}
+
+.profile-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  display: none;
+}
+
+.profile-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #27293d;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    padding: 15px 0;
+  }
+} */
+
+

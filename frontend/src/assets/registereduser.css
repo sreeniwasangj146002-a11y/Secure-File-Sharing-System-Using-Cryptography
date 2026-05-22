@@ -1,0 +1,45 @@
+#Admintable {
+  width: 162%; 
+  margin-top: 10%;
+  margin-left: 35%; 
+  display: flex;
+  justify-content: center; 
+}
+
+.Actionbutton
+{
+  width: 15% !important;
+  align-items: center !important;
+}
+
+/* If the table itself needs to be wider */
+#Admintable table {
+  width: 100%; 
+  min-width: 800px; 
+}
+
+/* Fix heading alignment */
+.heading {
+    position: relative;
+    left: 30%;
+  margin-top:15%;
+  margin-right: 47%;
+
+}
+
+  .table {
+    width: 100%;
+    table-layout: auto; 
+  }
+  
+  th, td {
+    white-space: nowrap; 
+    text-align: center; 
+  }
+  
+  @media (max-width: 768px) {
+    #Admintable {
+      width: 100%;
+    }
+  }
+  
